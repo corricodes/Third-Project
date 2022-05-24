@@ -1,0 +1,16 @@
+Loops [Day 39]
+
+What's the idea behind loops in JavaScript?
+    Loops allow you to execute code multiple times.
+
+How does the "regular for loop" work?
+    You have a helper variable and keep on looping as long as that variable is meeting some condition. The variable also changes with every iteration.
+
+What does the for-of loop allow you to do?
+    You can use the for-of loop to loop through all the elements of an array.
+
+What does the for-in loop allow you to do?
+    You can use the for-in loop to loop through all the properties of an object.
+
+What's the idea behind the "while" loop?
+    You keep on iterating ("looping") until a certain condition is NOT met anymore.

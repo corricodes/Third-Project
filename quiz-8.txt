@@ -1,0 +1,29 @@
+What are boolean values ("Booleans")?
+    A value type which only knows two possible values: true or false. Very useful for "if" statements!
+
+What is the idea behind "if" statements?
+    if statements control whether some code is executed or not.
+
+Given the below code, what would be the output you get in the console?
+        const userAge = 52;
+        if (userAge > 60 && userAge < 100) {
+            console.log('User is in our target customer group!');
+        } else if (userAge < 30) {
+            console.log('User is a potential future customer.');
+        } else {
+            console.log('User is also an interesting customer!');
+        }
+    
+    User is an interesting customer!
+
+What's the idea behind "comparison operators" like == or <?
+    These operators can be used to derive boolean values from other values.
+
+What's the diffrence between the == and the === operators?
+    === compare values and types, == compares values only.
+
+What's the idea behind "logical operators" like && or ||?
+    You can combine multiple boolean values and derive a new boolean value.
+
+What's the idea behind "truthy" and "falsy" values?
+    In places where boolean is expected, JS tries to "convert" non=booleanvalues to "truthy"/"falsy" values.
